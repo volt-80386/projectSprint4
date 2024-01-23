@@ -7,13 +7,10 @@ import project.sprint4.pageobject.Main;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.After;
-import static org.hamcrest.CoreMatchers.is;
-import org.hamcrest.MatcherAssert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import java.time.Duration;
-import java.util.Date;
 import java.time.LocalDate;
 
 @RunWith(Parameterized.class)
